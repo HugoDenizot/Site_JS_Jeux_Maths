@@ -1,0 +1,151 @@
+/* POP UP Changement de Base */
+.overlayPopup-1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.Popup-1{
+    margin: 5% 40% 15% 25%;
+    padding: 20px;
+    width: 50%;
+    min-height: 500px;
+    height: 50%;
+    background-color: rgba(228, 228, 228, 1);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.5);
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    text-align: center;
+}
+
+.Popup-1 button {
+    margin: 20px;
+}
+
+.Popup-1 select {
+    margin-top: 40px;
+}
+
+.Popup-1 h2 {
+    color: black;
+}
+
+.btnClose{
+    right: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.btnClose {
+    color: red;
+    font-size: 32px;
+}
+
+/*  POP UP POUR REGLES DU JEUX */
+.overlayPopup-2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.Popup-2{
+    margin: 5% 10%;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(228, 228, 228, 1);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.5);
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    text-align: center;
+}
+
+.Popup-2 button {
+    margin: 20px;
+}
+
+.Popup-2 select {
+    margin-top: 40px;
+}
+
+.Popup-2 h2 {
+    color: black;
+}
+
+.Popup-2 h2 button {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -85px;
+}
+
+.Placement {
+    grid-area: line1 / col3 / line2 / col4 ;
+    text-align: right;
+    margin: 50px;
+}
+
+/* POP UP FIN DE PARTIE */
+.overlayPopup-4 {
+    position: fixed;
+    width: 25%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.Popup-4 {
+    margin: 50% 157%;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(228, 228, 228, 1);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.5);
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    text-align: center;
+}
+
+.Popup-4 button {
+    margin: 20px;
+}
+
+.Popup-4 select {
+    margin-top: 40px;
+}
+
+.Popup-4 h2 {
+    color: black;
+}
+
+.Popup-4 h2 button {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -85px;
+}
+
+#divSelectBase div {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #adb5bd;
+    padding: 0px 10px;
+    border: solid black 2px;
+    text-align: center;
+}

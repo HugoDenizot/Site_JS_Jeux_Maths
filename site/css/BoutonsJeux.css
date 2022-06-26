@@ -1,0 +1,33 @@
+.boutonJeu {
+    grid-area: line2 / col3 / line3 / col4;
+    display: flex;
+    width: 400px;
+    margin-right: 50px;
+    margin-left: auto;
+    text-align: right;
+    align-items:flex-end;
+    justify-content:right;
+    flex-direction: column;
+}
+
+.boutonJeu2 {
+    grid-area: line2 / col3 / line3 / col4;
+    display: flex;
+    max-width: 300px;
+    margin-right: 50px;
+    margin-left: auto;
+    text-align: right;
+    align-items:flex-end;
+    justify-content:right;
+    flex-direction: column;
+}
+
+.boutonJeu div, .boutonJeu a {
+    font-size: 24px;
+}
+
+
+.SpaceBet {
+
+    height:20px;
+}

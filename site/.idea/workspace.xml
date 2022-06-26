@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc3eb61d-bc98-4545-b114-44db1278677e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/drag&amp;drop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/drag&amp;drop.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mb93711nbh5UrHWX8ThNC95wV0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Cours\2A\Projet\Site\jeu-modulo\site\html" />
+      <recent name="F:\Cours\2A\Projet\Site\jeu-modulo\site\PHP" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc3eb61d-bc98-4545-b114-44db1278677e" name="Default Changelist" comment="" />
+      <created>1609751221466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609751221466</updated>
+      <workItem from="1609751222680" duration="1549000" />
+      <workItem from="1609753798422" duration="755000" />
+      <workItem from="1610958603445" duration="514000" />
+      <workItem from="1610959298060" duration="298000" />
+      <workItem from="1610959779232" duration="96000" />
+      <workItem from="1611434634461" duration="558000" />
+      <workItem from="1611559183410" duration="23000" />
+      <workItem from="1611559254110" duration="14718000" />
+      <workItem from="1611856033828" duration="2240000" />
+      <workItem from="1612769814338" duration="1531000" />
+      <workItem from="1612773746174" duration="715000" />
+      <workItem from="1613978518331" duration="2139000" />
+      <workItem from="1613988246699" duration="2298000" />
+      <workItem from="1614085136817" duration="45000" />
+      <workItem from="1614165131222" duration="1888000" />
+      <workItem from="1614430322772" duration="1026000" />
+      <workItem from="1614438262988" duration="601000" />
+      <workItem from="1614586908158" duration="2694000" />
+      <workItem from="1614590696507" duration="5878000" />
+      <workItem from="1615192082147" duration="3144000" />
+      <workItem from="1615398155130" duration="613000" />
+      <workItem from="1616971695894" duration="2881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

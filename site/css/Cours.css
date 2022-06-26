@@ -1,0 +1,21 @@
+#center {
+    margin: 100px 0px;
+    grid-area: line1 / col2 / line2 / col3 ;
+    font-family: "Cambria Math";
+    font-size: 22px;
+}
+
+#center h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#center h1 {
+    font-size: 32px;
+    color: white;
+}
+
+#center a {
+    font-size: 24px;
+    color: white;
+}

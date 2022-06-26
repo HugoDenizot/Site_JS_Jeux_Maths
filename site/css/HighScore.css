@@ -1,0 +1,13 @@
+.highScore {
+    grid-area: line1 / col2 / line3 / col3;
+    margin: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.highScore2 {
+    grid-area: line1 / col2 / line4 / col3;
+    margin: 50px;
+    text-align: center;
+    font-size: 24px;
+}

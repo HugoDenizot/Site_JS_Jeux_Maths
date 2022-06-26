@@ -1,0 +1,261 @@
+\documentclass[a4paper,12pt]{article}
+
+
+
+
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{graphics, graphicx}
+\usepackage{fancyhdr}
+\usepackage{a4wide}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+%\usepackage{wrapfig}
+
+
+
+%%% ARBRE 
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[francais]{varioref}
+\usepackage[top=2cm, bottom=2.5cm, left=1.9cm, right=1.9cm]{geometry}
+\usepackage{multirow}
+%\usepackage{a4wide}
+\usepackage{url}
+%\usepackage{times}
+\usepackage{cancel}
+
+
+\usepackage{tikz,pgflibraryarrows,pgffor,pgflibrarysnakes}
+
+
+%\usepackage{algorithm2e}
+\usepackage[french,vlined]{algorithm2e}
+\usepackage{sfmath}
+
+\pagestyle{empty}
+
+
+\theoremstyle{theorem}
+\newtheorem{question}{Question}
+
+\theoremstyle{definition}
+\newtheorem{quizz}{Quizz}
+\newtheorem*{defi}{Défi !}
+
+
+\setlength{\parindent}{0pt} 
+
+\AtBeginDocument{
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\star$}
+}
+
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\baselinestretch}{1.2}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% 
+%%% Quelques paquets g\'erant la correction
+%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{comment}
+%%% Pour afficher la correction
+%\includecomment{correction}
+%%% Pour version cachant la correction
+\excludecomment{correction}  
+\usepackage{xcolor}
+\usepackage{framed} %%% boîtes permettant de g\'erer correctement le saut de page.
+\colorlet{shadecolor}{gray!10!red!5}
+
+
+
+
+
+\begin{document}
+
+
+
+\vspace{.7cm}
+
+\hrule
+\vspace{.3cm}
+
+
+
+\begin{center}
+
+{\textbf{\Large 
+Exemples\\
+Arithm\'etique et Cryptographie\\
+Notions-cl\'es 2 et 3}}
+\vspace{.1cm}
+
+\end{center}
+\vspace{.3cm}
+
+\hrule
+\vspace{.5cm}
+
+
+
+% \thispagestyle{fancy}
+
+$$
+a^{5b}\times a^{b+1}
+$$
+
+$$
+(a^2)^{3b+1}
+$$
+
+$$(1^{15}+a^{15}\times0^{3}+b^{15})\times(b^{15}-1)$$
+
+
+$$\left(10^{\left(10^{99}\right)}\right)^{10}$$
+
+$$10^{\left(\left(10^{10}\right)^{10}\right)}$$
+
+$$10^{\left(10^{99}\right)}\times10^{10}$$
+
+$$\left(10^{\left(10^{10}\right)}\right)^{\left(10^{90}\right)}$$
+
+
+$$3^{(3^4)}$$
+
+$$(3^3)^4$$
+
+$$3^{(2^3).(5^3)}$$
+
+
+$$5^2\times3\times3^{12}\times5\times3^3\times3^4\times5^9$$
+
+$$\left(9^2\right)^{3}\times\left(5^2\right)^{5}\times 25$$
+
+$$\left(\left(5^2\times3\right)^3\right)^{\left(2^2\right)}$$
+
+$$125^4\times27^5$$
+
+$$\left(5^3\times9\right)^2\times3^{\left(2^{\left(2^2\right)}\right)}\times5^6$$
+
+
+$$27\times\left(3^2\times(3^0)^5\times3^{(3^2)}\right)^3$$
+
+
+$$n^4\times\left(n^{(2^3)}\times\left(n^0\right)^3\times n^2\right)^4$$
+
+
+$$a^3\times\left(a^2\times(a^0)^3\times a^{(2^3)}\right)^4$$
+
+$$a^5\times (a^3)^n+1^{504}\times a^{15}\times a^{-2} + (b^5)^3+ 0^{12}$$
+
+
+$$\displaystyle\frac{a^{-5}\times a^2}{a^3\times a^{-7}}$$
+
+$$\displaystyle\frac{\left(a^7\right)^3}{\left(a^{-2}\right)^{-6}}$$
+
+$$\displaystyle\left(\frac{a^{-3}}{a^5}\right)^7$$
+
+$$\left(a^{-2}\times a^7\right)^{-3}$$
+
+
+
+
+
+
+\vspace{.5cm}
+
+\hrule
+\vspace{.5cm}
+
+\begin{itemize}
+
+\item Justifiez que $7^{30} \equiv 1 \pmod{31}$. Déduisez-en la valeur de
+$7^{902} \pmod{31}$
+
+
+
+\item Sachant que $a$ est divisible par $13$ et que le reste de la division euclidienne de $b$ par $13$ est $1$, calculez $A=(a^{14}\times b^{12} + b^{42}+14^6)^2\times29^3 \mod\ 13$. 
+
+
+
+\item Calculez $2^6\mod 9$, $12^2\mod9$ et $8^2\mod9$. Calculez ensuite $A\mod9$ avec
+$A=2^{6m}+12^{m+2}+8^{610}$
+pour tout entier $m\geq1$.
+
+
+
+\item Pour quelles valeurs de $m$ le nombre $2^{4m+2}+4^{m}$ est-il divisible par 5? Justifier.
+
+
+\item Calculez les valeurs
+$5^n \mod\ 13$ pour $n$ allant de 1 à 5. Déduisez-en la valeur de
+$5^{247} \mod\ 13$ en justifiant votre réponse.
+
+
+\item Sachant que $a$ est divisible par 5, et que le reste de la division euclidienne de $b$ par 5 vaut 2, calculez $A=(b^{42}+a^{874 m +38}\times 8 + 2^5)\times b^4$ modulo 5.
+
+
+\item Montrer que, pour tout $n\in{\mathbb N}$, le nombre $14^{2n+1}+6^{4n}+22^{n}+75$ est un multiple de 7.
+
+
+
+\item Soit $m = 123456789$. Calculez $E = 2^{(m+3)} + 5^{(2.m)} + 7^{(2.m+1)} \mod\ 8$. Calculez d'abord $2^3\mod\ 8$, $5^2\mod\ 8$ et $7^2\mod\ 8$.
+
+
+
+\end{itemize}
+
+
+
+
+\end{document} 
+
+
+
+
+
+
+
+\begin{quizz}
+
+\end{quizz}
+\begin{correction}
+\begin{shaded}
+\textbf{R\'eponse.}\ 
+   
+
+aa
+\end{shaded}
+\end{correction}
+\vspace{.5cm}
+
+
+
+
+
+
+
+
+
+\begin{defi}
+
+\end{defi}
+\begin{correction}
+\begin{shaded}
+\textbf{R\'eponse.}\ 
+   
+
+aa
+\end{shaded}
+\end{correction}
+\vspace{.5cm}
+

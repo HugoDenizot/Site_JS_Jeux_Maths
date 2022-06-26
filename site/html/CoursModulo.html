@@ -1,0 +1,140 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/Commun.css">
+    <link rel="stylesheet" type="text/css" href="../css/Cours.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Exo+2|Fjalla+One|Slabo+27px|Staatliches&display=swap" rel="stylesheet">
+    <title>Cours Modulo</title>
+</head>
+
+<body>
+<div class="divTitre">
+    <h1 class="titre">Cours</h1>
+    <h1 class="titre">Modulo</h1>
+</div>
+
+<div class="menu">
+    <div>
+        <h1 class="titre2" href="#" role="button">Exposants</h1>
+        <a class="titre3" href="JeuExposant.php">Jeu<br/></a>
+        <a class="titre3" href="CoursExposants.html">Cours</a>
+    </div>
+
+    <div>
+        <h1 class="titre2" href="#" role="button">Modulos</h1>
+        <a class="titre3" href="JeuModulo.php">Jeu<br/></a>
+        <a class="titre3" href="CoursModulo.html">Cours</a>
+    </div>
+
+    <footer>
+        <a href="Accueil.html">Accueil</a>
+    </footer>
+</div>
+
+<div id="center">
+    <div>
+        <h1>Principe des modulos : </h1></br>
+            <p>Les modulos sont présents dans notre quotidien sans qu'on le sache</p></br>
+        <h2>Exemple avec le système des heures :</h2>
+            <p>Une journée dure 24 heures, après 23h on retombe à 00h. </br>Donc on peut dire qu'une journée est modulable par 24, on écrit 24 mod 24 = 0</p>
+            <p>Toutefois nous n'obtenons pas tout le temps 0.</br>parfois on obtient un reste : X mod Y = reste</p></br>
+        <h2>Exemple :</h2>
+            <p>
+                9 mod 4 = 1</br>
+                On enlève autant de fois que possible 4 dans 9 (ici 2 fois) (4 × 2) = 8 <br>
+                9 - 8 =1 , Donc il nous reste 1.</br>
+                13 mod 5 = 3</br>
+                On enlève 5 dans 13 deux fois et il nous reste 3.
+            </p>
+            </br>
+
+        <h3> Propriétés :</h3>
+            <p>
+                - Si on a A = B mod N</br>
+                </br>
+                Alors on peut avoir :</br>
+                </br>
+                            - A × k = B × k mod N</br>
+                            - A + k = B + k mod N</br>
+                </br>
+                On fait comme pour une équation (attention à bien avoir le A = B mod N)</br>
+                </br>
+                - Si A = B mod N alors B = A mod N</br>
+                - Si on a A = B mod N et C = D mod N</br></br>
+                Alors :</br>
+                            - A + C = B + D mod N</br>
+                            - A × C = B × D mod N</br>
+                </br>
+                On retrouve la propriété du début mais elle est un peu plus poussée.</br>
+            </p>
+        </br>
+    </div>
+    <div>
+        <h1>Petite astuce :</h1>
+        <p>Pour trouver plus rapidement le résultat d'un calcul modulaire vous pouvez (si le cas le permet) rechercher si le nombre est divisible par un petit nombre :</p></br>
+        <h2>Exemple :</h2>
+        <p> 1546 mod 3</p>
+        </br>
+        <p>
+            Si on additionne tous les chiffres de 1546 on obtient : 1 + 5 + 4 + 6 = 16</br>
+            16 n’est pas divisible par 3, mais 15 oui donc on a 1546 mod 3 = 1</br>
+            ( 15 mod 3 = 0 donc 16 mod 3 = 1)
+        </p>
+        </br>
+        <p>
+            Pour 5 c’est facile . Si le nombre se termine par 0 ou 5 alors la réponse est 0.</br>
+            Pour 2 si le nombre est pair ou impair. Si le nombre est pair le résultat est 0, si le nombre est impair le résultat est 1</br>
+            Pour 7 là c’est déjà plus compliqué :</br>
+            </br>
+            On a un nombre de la forme suivante A + B, avec :</br>
+            A qui correspond au nombres des dizaines et au-dessus</br>
+            ( 17526, A = 1752 et B = 6)</br>
+            B chiffre des unités.</br>
+            A qui correspond au nombre des dizaines
+            </br>
+            On va faire avec : A + 5 × B = C</br>
+            Si « C » est trop grand pour savoir s’il est divisible par 7, alors on recommence avec C</br>
+            Si on arrive à trouver facilement que « C » est divisible par 7, alors c’est bon.</br>
+            ( C = 21 par exemple)</br></h2>
+            </br>
+        </p>
+        <h2>Exemple : 17 381 </h2>
+        <p>
+            => A = 1738 et B = 1
+            </br>1738 + 5 × 1 = 1743
+            </br>
+            </br>=> A = 174 et B = 3
+            </br>174 + 5 × 3 = 189
+            </br>
+            </br>=> A = 18 et B = 9
+            </br>18 + 5 × 9 = 63
+            </br>
+            </br>=> A = 6 et B = 3
+            </br>6 + 5 × 3 = 21
+            </br>
+            </br>=> 21 est divisible par 7 (3×7)
+            </br>Donc le résultat est correct.
+            </br>
+        </p>
+        </br>
+        <p>
+            Cette technique est un peu longue mais permet de faire le calcul sur des gros nombres.</br>
+            Il faut juste faire attention à ne pas aller trop vite au risque de se tromper dans les A et B.</br>
+            Si cela vous intéresse, il existe d’autres méthodes pour les autres chiffres sur Wikipédia :</br>
+        </p>
+        </br>
+        <a href="https://fr.wikipedia.org/wiki/Liste_de_critères_de_divisibilité">Compléments méthodes wikipédia</a></br></p>
+    </div>
+    <div>
+        simple commentaire : les critères de divisibilité enseignés dans les petites classes sont : 2,3,5,9,10 et 11 quand ça s'y prête </br>
+        (143 -> 1+3=4 la somme du chiffre des unités et du chiffre des centaines est égale au chiffre des dizaines)</br>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+#piochej1 {
+    grid-area: line2 / col3 / line3 / col4 ;
+    border: solid black 3px;
+    width: 210px;
+    text-align: center;
+    background: #555c62;
+}
+
+#piochej1 td {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    border: solid black 3px;
+    font-family: "Cambria Math";
+    color: black;
+    font-weight: bold;
+}
+
+#piochej2 {
+    grid-area: line2 / col3 / line3 / col4 ;
+    border: solid black 3px;
+    width: 210px;
+    text-align: center;
+    background: #555c62;
+}
+
+#piochej2 td {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    border: solid black 3px;
+    font-family: "Cambria Math";
+    color: black;
+    font-weight: bold;
+}
+
+#overlayPopup-7 {
+    grid-area: line2 / col3 / line3 / col4 ;
+    margin: 220px 50px auto auto;
+    width: 210px;
+    text-align: center;
+}
+
+#overlayPopup-8 {
+    grid-area: line2 / col3 / line3 / col4 ;
+    margin: 220px 50px auto auto;
+    width: 210px;
+    text-align: center;
+}
+
+#opérations {
+    grid-area: line2 / col3 / line3 / col4 ;
+    margin: 300px 50px auto auto;
+    border: solid black 3px;
+    width: 210px;
+    text-align: center;
+    background: #555c62;
+}
+
+#opérations td {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    border: solid black 3px;
+    font-family: "Cambria Math";
+    color: black;
+    font-weight: bold;
+}
+
+#chiffres {
+    grid-area: line2 / col3 / line3 / col4 ;
+    margin: 400px 115px auto auto;
+    border: solid black 3px;
+    width: 210px;
+    text-align: center;
+    background: #555c62;
+}
+
+#chiffres td {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    border: solid black 3px;
+    font-family: "Cambria Math";
+    color: black;
+    font-weight: bold;
+    background-color: #555c62;
+}
+
+.plateau {
+    background-color: #d3c8aa;
+}

@@ -1,0 +1,44 @@
+#tabModulo {
+    grid-area: line1 / col2 / line3 / col3 ;
+    margin: 20px auto auto auto;
+    border: solid white 3px;
+    width: 675px;
+    height: 675px;
+}
+
+#tabModulo td {
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+    border: solid white 3px;
+    font-family: "Cambria Math";
+    text-align: center;
+}
+
+#tabModulo td td {
+    height: 22px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.plateau {
+    background-color: #d3c8aa;
+}
+
+.rose {
+    background-color: #fdc8c0;
+}
+
+.bleuC {
+    background-color: #b7dad6;
+}
+
+.bleuF {
+    background-color: #008ca3;
+}
+
+.rouge {
+    background-color: #f3765a;
+}
